@@ -5,7 +5,7 @@
 replicaCount: 10
 
 image:
-  repository: fallewi/fastapi
+  repository: ulrich-sun/fastapi
   pullPolicy: IfNotPresent
   # Overrides the image tag: 0a8976c8fa2dd565a0e520935e10d98883d73490
   tag: 0a8976c8fa2dd565a0e520935e10d98883d73490
