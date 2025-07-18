@@ -7,8 +7,8 @@ replicaCount: 10
 image:
   repository: ulrich-sun/fastapi
   pullPolicy: IfNotPresent
-  # Overrides the image tag: 0a8976c8fa2dd565a0e520935e10d98883d73490
-  tag: 0a8976c8fa2dd565a0e520935e10d98883d73490
+  # Overrides the image tag: f364db269369cb212757927ae253f670a7085b94
+  tag: f364db269369cb212757927ae253f670a7085b94
 
 imagePullSecrets: []
 nameOverride: ""
@@ -72,8 +72,8 @@ autoscaling:
   enabled: false
   minReplicas: 1
   maxReplicas: 1
-  targetCPUUtilizationPercentag: 0a8976c8fa2dd565a0e520935e10d98883d73490
-  # targetMemoryUtilizationPercentag: 0a8976c8fa2dd565a0e520935e10d98883d73490
+  targetCPUUtilizationPercentag: f364db269369cb212757927ae253f670a7085b94
+  # targetMemoryUtilizationPercentag: f364db269369cb212757927ae253f670a7085b94
 
 nodeSelector: {}
 
